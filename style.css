@@ -1,0 +1,40 @@
+* {
+    font-family:Arial;
+  
+}
+#google {
+  position:relative;
+  height: 25%;
+  margin: auto;
+  width: 25%;
+  margin-top:10%
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#header {
+  position:relative;
+  left:77%;
+  font-size:13px;
+  width:430px;
+    
+}
+
+ li {
+  display:inline;
+  text-align:left;
+  list-style-type: none;
+  margin:0;
+  padding:5px;
+}
+
+#footer {
+  background-color:#f2f2f2;
+}
