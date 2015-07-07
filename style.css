@@ -1,7 +1,7 @@
 * {
     font-family:Arial;
-  
-}
+    font-size:13px;
+  }
 #google {
   position:relative;
   height: 25%;
@@ -9,22 +9,29 @@
   width: 25%;
   margin-top:10%
 }
-
-img {
+#googleimg {
+  position: absolute;
+  left: 75px; 
+  height: auto;
+  width:auto;
+}
+#googleimg img {
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  height: auto;
-  width: auto;
+  height: 106px;
+  width: 300px;
   max-width: 300px;
   max-height: 300px;
 }
 
 #header {
   position:relative;
-  left:77%;
-  font-size:13px;
-  width:430px;
-    
+  left:85%;
+  width:275px;
+  top: -5px;
+
+
 }
 
  li {
@@ -35,6 +42,91 @@ img {
   padding:5px;
 }
 
+li img {
+ position: relative;
+ top: 8px;
+
+
+}
+
+li:nth-child(5) img {
+  border-radius: 100%;
+  
+ 
+}
+
+#searchbar{
+  position: absolute;
+  margin:auto;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  white-space: nowrap;
+  padding: 30px;
+  clear: both;
+  top: 100px;
+  left: -70px;
+  
+}
+
+input {
+  width: 521px;
+  height: 28px;
+}
+
+#gsearch {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    top: 420px;
+    left: 820px;
+
+
+  }
+#feeling {
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    top: 420px;
+    left: 950px;
+}
+  button {
+    border: 1px solid #dcdcdc;
+    border-radius: 5%;
+    background-color: #F5F5F5;
+    width: 108px;
+    height:28px;
+  }
+#feeling button {
+    width: 120px;
+}
+
 #footer {
+ margin: 530px 30px auto 0;
   background-color:#f2f2f2;
+  top: 330px;
+  position: relative;
+  width: 1918px;
+  height: 43px;
+  border: 1px solid #e4e4e4;
+  left: -10px;
+}
+
+#left-footer {
+    position: relative;
+    right: 20px;
+}
+
+#right-footer {
+  position: relative;
+  text-align: right;
+  top: -29px;
+  right: 15px;
+}
+
+#footer ul li {
+  top: 3px;
+  position:relative;
 }
